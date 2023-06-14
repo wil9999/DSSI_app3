@@ -3,3 +3,7 @@ pandas==1.4.2
 streamlit==1.23.1
 matplotlib
 pickleshare
+scikit-learn
+scipy
+seaborn
+PyAutoGUI
