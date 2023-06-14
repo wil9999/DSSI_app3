@@ -9,8 +9,8 @@ import pickle
 # import pyautogui # for reset button: pip install pyautogui
 
 # load the model.pkl
-path = r'C:\Users\Wilson\Downloads\course_files_export\Day 2\code base\ap3-main\Solution\model.pkl'
-with open(path, "rb") as f:
+# path = r'C:\Users\Wilson\Downloads\course_files_export\Day 2\code base\ap3-main\Solution\model.pkl'
+with open('model.pkl', "rb") as f:
 	model = pickle.load(f)
 
 # Streamlit provides a caching mechanism that allows your app to stay performant 
